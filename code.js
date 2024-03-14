@@ -1,14 +1,14 @@
 let playerScore = 0;
 let computerScore  = 0;
-let isGameOver = false;
+let isGameend = false;
 
 function checkGameOver(computerScore, playerScore){
     if(playerScore ===5){
-        isGameOver= true
+        isGameend= true
         return whenGameEnds(1);}
         else if(computerScore === 5)
         {
-            isGameOver = true;
+            isGameend = true;
             
             return whenGameEnds(0);
      }
